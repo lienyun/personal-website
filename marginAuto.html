@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 1rem 0;
+        }
+        .box1{
+            text-align: center;
+            background-color: aqua;
+            background-image: linear-gradient(to right,#3b82f6,#06b6d4);
+        }
+        
+        .box2{
+            width: 100%;
+            background-image: linear-gradient(to right,#8b5cf6,#d946ef);
+        }
+        .box2-wrap{
+            margin: auto;
+            width: fit-content;
+        }
+        .box3{
+            display: flex;
+            justify-content: center;
+            gap:4px;
+            background-image: linear-gradient(to right,#a855f7,#ec4899);
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <button>A1</button>
+        <button>B1</button>
+    </div>
+    <div class="box box2">
+        <div class="box2-wrap">
+            <button>A2</button>
+            <button>B2</button>
+        </div>
+    </div>
+    <div class="box box3">
+        <button>A3</button>
+        <button>B3</button>
+    </div>
+</body>
+</html>
